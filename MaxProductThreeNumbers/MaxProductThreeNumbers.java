@@ -19,7 +19,8 @@ public class MaxProductThreeNumbers
             array. The largest number will either be  (-x * -y * z) or
             (x * y * z). 
             */
-            result = Math.max(nums[0] * nums[1] * nums[nums.length - 1], nums[nums.length - 1] * nums[nums.length - 2] * nums[nums.length - 3]);
+            result = Math.max(nums[0] * nums[1] * nums[nums.length - 1],
+                              nums[nums.length - 1] * nums[nums.length - 2] * nums[nums.length - 3]);
             return result;
         }
     }
