@@ -1,5 +1,7 @@
-package LeetCode;
+// Solution by: Tyler Weatherby
+// https://leetcode.com/problems/reverse-integer/
 
+package LeetCode;
 public class ReverseInteger {
      public static int reverse(int x)
      {
