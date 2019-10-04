@@ -3,8 +3,10 @@
 // https://leetcode.com/problems/palindrome-number
 
 package LeetCode;
-class PalindromeNumber {
-    public boolean isPalindrome(int x) {
+class PalindromeNumber
+{
+    public boolean isPalindrome(int x)
+    {
         // Specified special case example: -121 --> 121- therefore false.
         // So anything in the negative range is automatically false.
         if(x < 0)
